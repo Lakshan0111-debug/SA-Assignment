@@ -1,13 +1,13 @@
 package Task2;
 
 public class Coffee extends Beverages{
-    void  brew(){
+    protected void  brew(){
         System.out.println("Dripping coffee through filter");
     }
-    void  addCondiments(){
+    protected void  addCondiments(){
         System.out.println("Adding sugar and milk");
     }
-    void addExtras(){
+    protected void addExtras(){
         System.out.println("Adding vanilla syrup");
     }
 }

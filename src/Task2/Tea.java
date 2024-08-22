@@ -1,13 +1,13 @@
 package Task2;
 
 public class Tea extends Beverages{
-    void  brew(){
+    protected void  brew(){
         System.out.println("Steeping the tea");
     }
-    void  addCondiments(){
+    protected void  addCondiments(){
         System.out.println("Adding lemon");
     }
-    void addExtras(){
+    protected void addExtras(){
         System.out.println("Adding honey");
     }
 }

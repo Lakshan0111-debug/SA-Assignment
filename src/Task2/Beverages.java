@@ -1,7 +1,10 @@
 package Task2;
 
 public abstract class Beverages {
-    abstract void  addExtras();
+    private boolean wantsExtras;
+    public void setWantsExtras(boolean wantsExtras){
+        this.wantsExtras = wantsExtras;
+    }
 
     public void  boilWater(){
         System.out.println("Boiling water");
@@ -19,4 +22,9 @@ public abstract class Beverages {
             addExtras();
         }
     }
+
+    protected abstract void brew();
+    protected abstract void addCondiments();
+    protected abstract void addExtras();
+
 }
