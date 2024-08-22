@@ -1,3 +1,5 @@
+package Task1;
+
 public class RemoteControlTest {
     public static void main(String[] args) {
         RemoteControl remoteControl = new RemoteControl(2);

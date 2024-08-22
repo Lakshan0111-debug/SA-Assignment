@@ -1,3 +1,5 @@
+package Task1;
+
 public class KitchenRoomLight implements Light{
     private int brightness = 0;
     @Override

@@ -1,3 +1,5 @@
+package Task1;
+
 public class LightDimCommand implements Command{
     private Light light;
     private int prevLevel;

@@ -1,3 +1,5 @@
+package Task1;
+
 public class LivingRoomLight implements Light{
     private int brightness;
     @Override

@@ -1,3 +1,5 @@
+package Task1;
+
 public class RemoteControl {
     private Command[] onCommands;
     private Command[] offCommands;
