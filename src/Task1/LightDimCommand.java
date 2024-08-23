@@ -12,7 +12,6 @@ public class LightDimCommand implements Command{
 
     @Override
     public void execute() {
-        //prevLevel = light.getBrightness();
         light.dim(newLevel);
     }
 
@@ -20,4 +19,5 @@ public class LightDimCommand implements Command{
     public void undo() {
         light.dim(prevLevel);
     }
+
 }

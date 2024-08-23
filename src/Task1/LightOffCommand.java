@@ -5,6 +5,7 @@ public class LightOffCommand implements Command{
 
 
     public LightOffCommand(Light light){
+
         this.light=light;
     }
 
