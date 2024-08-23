@@ -4,7 +4,6 @@ public class ShapeTest {
     public static void main(String[] args ) {
         ShapeFactory shapeFactory = new ShapeFactory();
 
-        // Test various shapes
         Shape square = shapeFactory.getShape("SQUARE");
         if (square != null) {
             System.out.println("Square:");
@@ -26,7 +25,6 @@ public class ShapeTest {
             System.out.println();
         }
 
-        // Test invalid shape
         Shape invalidShape = shapeFactory.getShape("PENTAGON");
         if (invalidShape != null) {
             invalidShape.draw();
